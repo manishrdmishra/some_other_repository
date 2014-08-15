@@ -1,8 +1,15 @@
 #include<stdio.h>
 
+int one(){
+
+  return 1;
+
+}
+
 // main method, comment
 int main (int argc , char argc[])
 {
-  return 0;
+  int one = one();
+  return one - 1;
 }
 
